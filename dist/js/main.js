@@ -18621,7 +18621,7 @@ var React = require('react');
 var APP = 
 	React.createClass({displayName: 'APP',
 		render: function(){
-			return React.DOM.h1(null, "My APP")
+			return React.DOM.h1(null, "My FLUX APP")
 		}
 	});
 
