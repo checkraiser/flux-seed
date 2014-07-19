@@ -2,7 +2,7 @@ var AppDispatcher = require('../dispatchers/app-dispatcher');
 var AppConstants = require('../constants/app-constants');
 var merge = require('react/lib/merge');
 var EventEmitter = require('events').EventEmitter;
-
+var $ = require('jquery');
 var CHANGE_EVENT = "change";
 var _catalog = [
 	{id: 1, title: "Widget #1", cost: 1},
